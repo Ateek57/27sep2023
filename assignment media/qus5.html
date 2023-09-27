@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="sign-up">
+        <h2>Sign-Up form</h2>
+        <label for=" First Name"> First Name</label>
+        <input type="text" name="First Name" id="First Name" placeholder="Enter your name" required minlength="3" maxlength="20"><br>
+        <label for=" Last Name"> Last Name</label>
+        <input type="text" name="Last Name" id="Last Name" placeholder="Enter your name" required minlength="3" maxlength="20"><br>
+        <label for="email">Email</label>
+        <input type="Email" name="Email" id="Email" placeholder="Enter your Email"><br>
+        <label for="Password">Password</label>
+        <input type="Password" name="Passwword" id="Password" placeholder="enter your password"><br>
+        <label for="Confirm Password">Confirm Password</label>
+        <input type="Confirm password" name="Confirm Password" id="Confirm Password" placeholder="Enter your Password"><br>
+        <label for="Age">Age</label>
+        <input type="number" name="Age" value="100"  required minlength="10" maxlength="100"><br>
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        <label for="terms">terms:
+            <input type="checkbox" id="terms" required>I agree to the terms and condition
+        </label><br>
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
